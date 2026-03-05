@@ -22,6 +22,7 @@ function PageFormat({message, theme}: Props) {
     <div className={`w-screen h-screen flex items-center justify-center ${fontDesign()} ${Theme(theme)}`}>
       {message}
     </div>
+    
   )
 }
 
